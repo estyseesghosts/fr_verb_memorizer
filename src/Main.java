@@ -71,6 +71,7 @@ public class Main {
             String answer = scanner.nextLine();
 
             cc1 = answer.toUpperCase();
+            if (cc1.charAt(cc1.length()-1) == ' ') cc1 = cc1.substring(0, cc1.length()-1);
             cc2 = answerCheck.toUpperCase();
 
             if (answer.equals("111")) break;
